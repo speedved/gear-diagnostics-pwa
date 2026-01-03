@@ -7,13 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0f172a">
 
+  <base href="./">
+
   <link rel="manifest" href="manifest.json">
 
   <script>
-    // krátká prodleva kvůli PWA lifecycle
+    // DŮLEŽITÉ: delší prodleva kvůli PWA Builderu
     setTimeout(() => {
       window.location.replace("https://system.gear-diagnostics.cz");
-    }, 150);
+    }, 1500);
   </script>
 </head>
 
